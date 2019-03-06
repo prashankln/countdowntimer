@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -22,7 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="134dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="83dp" />
 
 </android.support.constraint.ConstraintLayout>
